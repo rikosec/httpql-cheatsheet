@@ -1,5 +1,7 @@
 # HTTPQL Cheat Sheet for Caido
 
+### Below is the HTTPQL cheatsheet for caido which can be helpful to quickly search through the request and responses of target web history.
+
 | **Description**                          | **HTTPQL Query**                                                                                          |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | **Find keyword in request or response**  | `req.raw.cont:"<keyword>" OR res.raw.cont:"<keyword>"`                                                   |
